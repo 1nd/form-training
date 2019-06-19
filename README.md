@@ -3,6 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Getting Started
 
 1. Make sure you already install all prerequisites:
+    - Git
     - Node 10
     - Yarn
 2. Clone this repo
