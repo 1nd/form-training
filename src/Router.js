@@ -17,6 +17,7 @@ import Radio from './Radio';
 import RadioUncontrolled from './RadioUncontrolled';
 import OnClickSubmit from './OnClickSubmit';
 import NoForm from './NoForm';
+import Validation from './Validation';
 
 const Router = () => {
     return (
@@ -41,6 +42,7 @@ const Router = () => {
                     <li><Link to="/radio-uncontrolled">Radio (Uncontrolled)</Link></li>
                     <li><Link to="/onclick-submit">OnClick Submit</Link></li>
                     <li><Link to="/no-form">{`No <form>`}</Link></li>
+                    <li><Link to="/validation">with Validation</Link></li>
                 </ul>
 
                 <hr />
@@ -63,6 +65,7 @@ const Router = () => {
                     <Route path="/radio-uncontrolled" component={RadioUncontrolled} />
                     <Route path="/onclick-submit" component={OnClickSubmit} />
                     <Route path="/no-form" component={NoForm} />
+                    <Route path="/validation" component={Validation} />
                 </div>
 
             </div>
