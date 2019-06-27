@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Link, Route } from 'react-router-dom'
-import Home from './Home';
+import Register from './Register';
 import Controlled from './Controlled'
 import Uncontrolled from './Uncontrolled'
 import Textarea from './Textarea'
@@ -25,7 +25,7 @@ const Router = () => {
             <div>
 
                 <ul>
-                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/">Register</Link></li>
                     <li><Link to="/controlled">Controlled</Link></li>
                     <li><Link to="/uncontrolled">Uncontrolled</Link></li>
                     <li><Link to="/textarea">Textarea</Link></li>
@@ -48,7 +48,7 @@ const Router = () => {
                 <hr />
 
                 <div>
-                    <Route exact path="/" component={Home} />
+                    <Route exact path="/" component={Register} />
                     <Route path="/controlled" component={Controlled} />
                     <Route path="/uncontrolled" component={Uncontrolled} />
                     <Route path="/textarea" component={Textarea} />
