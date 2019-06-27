@@ -23,7 +23,7 @@ const Register = () => {
                 </label>
                 <label>
                     Address:
-                    <textarea ref={addressField}>Lorem ipsum</textarea>
+                    <textarea ref={addressField}></textarea>
                 </label>
                 <button type="submit">Submit</button>
             </form>
