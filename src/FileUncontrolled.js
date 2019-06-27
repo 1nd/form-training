@@ -18,7 +18,7 @@ const Register = () => {
             profilePicObjectUrl = ''
         }
         
-        fetch('https://api.example.com/login', {method: 'POST', body: JSON.stringify({name: fullName, profilePic: profilePicObjectUrl})})
+        fetch('https://api.example.com/register', {method: 'POST', body: JSON.stringify({name: fullName, profilePic: profilePicObjectUrl})})
     }
 
     return (

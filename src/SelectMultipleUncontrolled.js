@@ -16,7 +16,7 @@ const Register = () => {
             country.push(aCountry.value);
         }
 
-        fetch('https://api.example.com/login', {method: 'POST', body: JSON.stringify({name: fullName, country: country})})
+        fetch('https://api.example.com/register', {method: 'POST', body: JSON.stringify({name: fullName, country: country})})
     }
 
     return (

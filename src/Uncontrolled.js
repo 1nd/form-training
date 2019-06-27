@@ -7,7 +7,7 @@ const Register = () => {
     const submit = (event) => {
         event.preventDefault();
         const fullName = get(nameField, 'current.value');
-        fetch('https://api.example.com/login', {method: 'POST', body: JSON.stringify({name: fullName})})
+        fetch('https://api.example.com/register', {method: 'POST', body: JSON.stringify({name: fullName})})
     }
 
     return (

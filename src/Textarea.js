@@ -15,7 +15,7 @@ const Register = () => {
     const submit = (event) => {
         event.preventDefault();
 
-        fetch('https://api.example.com/login', {method: 'POST', body: JSON.stringify({name: fullName, address: address})})
+        fetch('https://api.example.com/register', {method: 'POST', body: JSON.stringify({name: fullName, address: address})})
     }
 
     return (

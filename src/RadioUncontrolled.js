@@ -22,7 +22,7 @@ const Register = () => {
             selectedGender = '';
         }
 
-        fetch('https://api.example.com/login', {method: 'POST', body: JSON.stringify({name: fullName, gender: selectedGender})})
+        fetch('https://api.example.com/register', {method: 'POST', body: JSON.stringify({name: fullName, gender: selectedGender})})
     }
 
     return (

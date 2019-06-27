@@ -56,7 +56,7 @@ const Register = () => {
         const isValid = validate();
         
         if (isValid) {
-            fetch('https://api.example.com/login', {method: 'POST', body: JSON.stringify({name: fullName, email: email})})
+            fetch('https://api.example.com/register', {method: 'POST', body: JSON.stringify({name: fullName, email: email})})
         }
     }
 

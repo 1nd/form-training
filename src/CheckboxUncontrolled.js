@@ -9,7 +9,7 @@ const Register = () => {
         event.preventDefault();
         const fullName = get(nameField, 'current.value');
         const readTnc = get(readTncField, 'current.checked');
-        fetch('https://api.example.com/login', {method: 'POST', body: JSON.stringify({name: fullName, readTnc: readTnc})})
+        fetch('https://api.example.com/register', {method: 'POST', body: JSON.stringify({name: fullName, readTnc: readTnc})})
     }
 
     return (
